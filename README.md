@@ -26,5 +26,6 @@ Why? Because I couldnt find an example out there ready to play with, especially 
 - 'org.webrtc:google-webrtc:1.0.+'
 
 ### Problems encountered
-I encountered all the issues here: https://github.com/marcusbelcher/android-getUserMedia-test and... a TONNE more graddle, dex Java version, react, etc, issues. 
-Primarily upgrading a create-react-native-app from graddle 2 to 3 was a tad tricky. Otherwise it was just making sure Videos & WebGL could be native friendly, and WebRTC functionality was accessible inside a WebView (and the necessary permissions were handled correctly).
+- Upgrading create-react-native-app from Graddle 2 to 3, there are still some warnings
+- Java 7 to 8
+- Permission, Android, WebRTC issues from https://github.com/marcusbelcher/android-getUserMedia-test 
