@@ -1,13 +1,20 @@
 # README
-This repo is a simple test case for anyone to use - as is - to check JavaScript WebRTC / Camera access via getUserMedia inside a WebView in a React Native Android application. The Application - as default - views another test application I have hosted on GitHub pages (https://github.com/marcusbelcher/wasm-asm-camera-webgl-test). The application also have native WebGL and Video test views. 
+This repo is a simple react-native example for anyone to:
+- View Web based AR experiences inside a WebView
+- Test JavaScript WebRTC / Camera access via getUserMedia inside a WebView 
+- Implement WebGL to native effects outside of a WebView e.g. fancy camera filters
+- Implement Camera to native access/effects outside of a WebView e.g. take a photo to upload
+- Implement Videos to native outside of a WebView e.g. Video Backgrounds for login
 
-Why? Because I couldnt find an example out there ready to play with inc. an updated gradle file. This application can display web based AR experiences.
-
+## Keypoints 
+- Gradle 3.0
 - Currently Android only (Until Apple allows getUserMedia access inside a WKWebView) 
 - Tested on a Samsung S7 Edge
 - Pure android version here (https://github.com/marcusbelcher/android-getUserMedia-test)
 - This projected originated from an ejected create-react-native-app (https://github.com/react-community/create-react-native-app)
 - For each 3rd party there is a test view you can swap in App.js
+
+ The Application - as default - views another test application I have hosted on GitHub pages (https://github.com/marcusbelcher/wasm-asm-camera-webgl-test) for WebView tests.
 
 ## Build
 - Install Node.JS, NPM, and Yarn
