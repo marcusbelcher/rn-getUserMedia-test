@@ -1,7 +1,7 @@
 # README
-This repo is a simple test case for anyone to use - as is - to check JavaScript WebRTC / Camera access via getUserMedia inside a WebView in a React Native Android application. The Application - as default - views another test application I have hosted on GitHub pages (https://github.com/marcusbelcher/wasm-asm-camera-webgl-test). The application also have native tests for WebGL and Video. 
+This repo is a simple test case for anyone to use - as is - to check JavaScript WebRTC / Camera access via getUserMedia inside a WebView in a React Native Android application. The Application - as default - views another test application I have hosted on GitHub pages (https://github.com/marcusbelcher/wasm-asm-camera-webgl-test). The application also have native WebGL and Video test views. 
 
-Why? Because I couldnt find an example out there ready to play with, especially one with an updated graddle file. Also this application is a potential foundation for a native app which views web based AR experiences.
+Why? Because I couldnt find an example out there ready to play with inc. an updated gradle file. This application can display web based AR experiences.
 
 - Currently Android only (Until Apple allows getUserMedia access inside a WKWebView) 
 - Tested on a Samsung S7 Edge
@@ -26,6 +26,6 @@ Why? Because I couldnt find an example out there ready to play with, especially 
 - 'org.webrtc:google-webrtc:1.0.+'
 
 ### Problems encountered
-- Upgrading create-react-native-app from Graddle 2 to 3, there are still some warnings
+- Upgrading create-react-native-app from Gradle 2 to 3, there are still some warnings...
 - Java 7 to 8
 - Permission, Android, WebRTC issues from https://github.com/marcusbelcher/android-getUserMedia-test 
